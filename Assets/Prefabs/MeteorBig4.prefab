@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!60 &-8321762522581877866
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7501767459641993364}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.89, y: 0.82}
+    newSize: {x: 0.98, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.285, y: 0.31}
+      - {x: 0.024999999, y: 0.39}
+      - {x: -0.024999999, y: 0.41}
+      - {x: -0.175, y: 0.41}
+      - {x: -0.445, y: 0.22}
+      - {x: -0.445, y: -0.16}
+      - {x: -0.33499998, y: -0.31}
+      - {x: -0.285, y: -0.37}
+      - {x: 0.015, y: -0.41}
+      - {x: 0.255, y: -0.41}
+      - {x: 0.445, y: -0.07}
+      - {x: 0.445, y: 0.049999997}
+      - {x: 0.315, y: 0.29}
+--- !u!1001 &3115383741118239730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4839030678478322534, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_Name
+      value: MeteorBig4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322536, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 83a9f79a12744c947869c10afd6298b9,
+        type: 3}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839030678478322539, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924797316210116988, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924797316210116988, guid: 5190c151a290df542884ec8180d8d81f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.82
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5924797316210116988, guid: 5190c151a290df542884ec8180d8d81f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5190c151a290df542884ec8180d8d81f, type: 3}
+--- !u!1 &7501767459641993364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4839030678478322534, guid: 5190c151a290df542884ec8180d8d81f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3115383741118239730}
+  m_PrefabAsset: {fileID: 0}
